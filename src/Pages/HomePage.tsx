@@ -123,10 +123,10 @@ function HomePage() {
                 </div>
                 <div className="grid-item grid-container">
                   <div className="grid-item"> 
-                      <img className=" img" src="./src/img/hexapod.jpg" alt="the wavehexapod test formation" />
+                      {/* <img className=" img" src="./src/img/hexapod.jpg" alt="the wavehexapod test formation" /> */}
                   </div>
                   <div className="grid-item">
-                    <img className=" img" src="./src/img/robotarm.jpg" alt="robotarm" />
+                    {/* <img className=" img" src="./src/img/robotarm.jpg" alt="robotarm" /> */}
                   </div>
                 </div>
               </div>

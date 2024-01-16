@@ -25,7 +25,7 @@ function App() {
             <ul className="list-none">
             <li className="inline font-sans">
                      
-                <img className="h-[125px] w-[250px]" src="./src/img/logo.svg" alt="logo" />
+                {/* <img className="h-[125px] w-[250px]" src="./src/img/logo.svg" alt="logo" /> */}
                   
             </li>
               {logIn?.authenticated === true ? (
@@ -33,7 +33,7 @@ function App() {
                   
                   <li className="inline font-sans">
                 
-                      <img className="h-[75px] w-[150px] ml-[275px] absolute top-7 right-0" src="./src/img/mdim.png" alt="logo" />
+                      {/* <img className="h-[75px] w-[150px] ml-[275px] absolute top-7 right-0" src="./src/img/mdim.png" alt="logo" /> */}
                     
                   </li>
                   {logIn?.IsConfirmerd() === "False" && (
