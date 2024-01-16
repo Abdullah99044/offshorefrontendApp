@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+ 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+    gap: 10px; /* Gap between grid items */
+  }
+  
+  .grid-item {
+     
+    padding: 20px;
+  }
+
+.tftable {
+    font-size: 14px;
+    color: #333333;
+    width: 50px;
+    border-width: 1px;
+    border-color: #87ceeb;
+    border-collapse: collapse;
+}
+
+.tftable th {
+    font-size: 18px;
+    background-color: #87ceeb;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #87ceeb;
+    text-align: left;
+}
+
+.tftable tr {
+    background-color: #ffffff;
+}
+
+.tftable td {
+    font-size: 14px;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #87ceeb;
+}
+
+.tftable tr:hover {
+    background-color: #e0ffff;
+}
+
+.table-container {
+    overflow: auto;
+    height: 400px;
+    /* Adjusted height */
+}
+
+.img {
+    width: 400px;
+    align-items: center;
+}
+
+.signInUpContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .signInUp-link-background {
+    background-color: lightgray;
+    padding: 10px 20px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 4px;
+  }
+  
+  .signInUp-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
