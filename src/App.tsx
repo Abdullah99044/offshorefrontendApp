@@ -23,17 +23,18 @@ function App() {
         <header className="bg-gray-400 w-screen h-[154px]">
           <nav className="text-right">
             <ul className="list-none">
+            <li className="inline font-sans">
+                     
+                <img className="h-[125px] w-[250px]" src="./src/img/logo.svg" alt="logo" />
+                  
+            </li>
               {logIn?.authenticated === true ? (
                 <>
+                  
                   <li className="inline font-sans">
-                    <Link to="/Home">
-                      <img className="h-[125px] w-[250px]" src="./src/img/logo.svg" alt="logo" />
-                    </Link>
-                  </li>
-                  <li className="inline font-sans">
-                    <Link to="#">
+                
                       <img className="h-[75px] w-[150px] ml-[275px] absolute top-7 right-0" src="./src/img/mdim.png" alt="logo" />
-                    </Link>
+                    
                   </li>
                   {logIn?.IsConfirmerd() === "False" && (
                     <li className="inline font-sans absolute top-0 right-0 mr-[70px]">
@@ -44,11 +45,7 @@ function App() {
                 </>
               ) : (
                 <>
-                  <li className="inline font-sans">
-                    <Link to="/Home">
-                      <img className="h-[125px] w-[250px]" src="./src/img/logo.svg" alt="logo" />
-                    </Link>
-                  </li>
+                  
                   <li className="inline font-sans absolute top-0 right-0 mr-[70px]">
                     <Link to="/Login">Login</Link>
                   </li>
@@ -63,10 +60,10 @@ function App() {
 
         <div className="mb-auto">
           <Routes>
-            <Route path="/" element={<WelcomePage />} />
+            <Route path="" element={<WelcomePage />} />
             <Route path="/Login" element={<Login />} />
             <Route path="/Register" element={<Register />} />
-            <Route path="/EmailConfirmation" element={<ProtectedRoute> <MailConfirmation /> </ProtectedRoute>} />
+            <Route path="/MailConfirmation" element={<ProtectedRoute> <MailConfirmation /> </ProtectedRoute>} />
             <Route path="/*" element={<NotFound />} />
 
             <Route path="/Home">

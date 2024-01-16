@@ -15,7 +15,7 @@ const ProtectedRoute = ({ children }  : Props  ) => {
 
     const auth = useContext(AuthContext);
 
-    return auth?.authenticated ? children : <Navigate to="/" replace />
+    return auth?.authenticated ? children : <Navigate to="offshorefrontendApp" replace />
 
 
 };
