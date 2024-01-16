@@ -3,7 +3,7 @@
   "name": "frontend-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Abdullah99044.github.io/offshorefrontendApp",
+  "homepage": "https://Abdullah99044.github.io/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
