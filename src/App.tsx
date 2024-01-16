@@ -45,7 +45,7 @@ function App() {
               ) : (
                 <>
                   <li className="inline font-sans">
-                    <Link to="/">
+                    <Link to="/Home">
                       <img className="h-[125px] w-[250px]" src="./src/img/logo.svg" alt="logo" />
                     </Link>
                   </li>

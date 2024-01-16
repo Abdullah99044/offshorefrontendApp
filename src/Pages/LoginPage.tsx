@@ -65,17 +65,20 @@ function Login () {
 
             if(Res.status === 404 ){
 
-               return toast.error("User Doesn't exist ! ");
+                 toast.error("User Doesn't exist ! ");
+                   throw new Error("This is an error message");
             }
 
             if(Res.status === 400 ){
 
-                return toast.error("Passoword is invalid !");
+                  toast.error("Passoword is invalid !");
+                  throw new Error("This is an error message");
             }
             
             else {
 
-            return toast.error('Unexpected response status: ' + Res.status);
+              toast.error('Unexpected response status: ' + Res.status);
+              throw new Error("This is an error message");
            
             }
 

@@ -95,7 +95,7 @@ function TriFloatPage() {
         <>
             
             {/* If user is not logged in the redirect him to "welcome" page  */}
-            { logIn?.authenticated === false &&  <Navigate to="/" replace />  }
+            { logIn?.authenticated === false &&  <Navigate to="offshorefrontendApp/" replace />  }
 
             <ToastContainer />
             <h1 className="font-sans text-center"> RWS </h1>

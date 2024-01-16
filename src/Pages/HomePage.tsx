@@ -86,7 +86,7 @@ function HomePage() {
   
         };},[ ]);
     
-  
+  console.log(logIn?.getJwt());
     return (
         <div>
           {logIn?.IsConfirmerd() === "True" && (

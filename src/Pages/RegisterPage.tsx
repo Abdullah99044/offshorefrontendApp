@@ -103,7 +103,7 @@ function Register() {
 
         <>
 
-            { logIn?.authenticated === true &&  <Navigate to="/Home" replace />  }
+            { logIn?.authenticated === true &&  <Navigate to="offshorefrontendApp/Home" replace />  }
 
             <h1 className="text-base font-sans text-center"> Register </h1>
 
